@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const backgroundAudio = document.getElementById('backgroundAudio');
     const particlesContainer = document.querySelector('.particles');
     const numParticles = 50;
+    const button = document.querySelector('.badge');
+
+    // Función para activar el efecto de hover
+    function activateHover() {
+        button.classList.add('hover-effect');
+    }
 
     function showPage(index) {
         if (index < pages.length) {
@@ -26,13 +32,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
     window.showAnswer = function(answer) {
         const answerText = document.getElementById('answerText');
         if (answer === 'yes') {
-            answerText.textContent = '¡Sí! ¡Aqui comienza nuestra historia! Te adoro';
+            answerText.textContent = '¡Sí! ¡Aqui comienza nuestra historia!';
+            activateHover();
         } else {
             answerText.textContent = 'Oh, bueno, gracias por ser honesta.';
         }
         showPage(pages.length - 1);
     }
-
 
     window.moveNoButton = function() {
         const noButton = document.getElementById('noButton');
