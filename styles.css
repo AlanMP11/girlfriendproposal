@@ -51,17 +51,17 @@ body {
 
 .particle {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.9); /* Hacemos las partículas más transparentes */
+    background-color: rgba(255, 255, 255, 0.7); /* Hacemos las partículas más transparentes */
     border-radius: 50%;
     pointer-events: none;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Agregamos una sombra suave */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4); /* Agregamos una sombra suave */
     animation: moveParticle 20s linear infinite; /* Ajustamos la duración de la animación */
 }
 
 @keyframes moveParticle {
     from {
         transform: translate(-50%, -50%); /* Cambiamos la dirección inicial */
-        opacity: 0.7; /* Iniciamos con opacidad 0 para un efecto de aparición gradual */
+        opacity: 0.6; /* Iniciamos con opacidad 0 para un efecto de aparición gradual */
     }
     to {
         transform: translate(calc(100vw + 50%), calc(100vh + 50%)); /* Movimiento diagonal */
