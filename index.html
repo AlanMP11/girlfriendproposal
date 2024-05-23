@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Quiero Preguntar Algo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="particles"></div>
+    <div class="background"></div>
+    <div id="content">
+        <div id="startPage">
+            <h1>Hola chiquita</h1>
+            <button id="startButton" onclick="startExperience()">Comenzar</button>
+        </div>
+        <div class="page" id="page1">
+            <h1>Mi amor</h1>
+            <p>Tengo algo muy especial que quiero decirte...</p>
+            <button onclick="nextPage()">Siguiente</button>
+        </div>
+        <div class="page" id="page2">
+            <h1>Desde hace tiempo, he querido decirte algo...</h1>
+            <p>Tu presencia ilumina mis días y haces mi vida más hermosa.</p>
+            <button onclick="nextPage()">Siguiente</button>
+        </div>
+        <div class="page" id="page3">
+            <h1>Algunas de nuestras mejores memorias...</h1>
+            <img src="images/photo1.jpg" alt="Foto 1">
+            <button onclick="nextPage()">Siguiente</button>
+        </div>
+        <div class="page" id="page4">
+            <img src="images/photo2.jpg" alt="Foto 2">
+            <button onclick="nextPage()">Siguiente</button>
+        </div>
+        <div class="page" id="page5">
+            <img src="images/photo3.jpg" alt="Foto 3">
+            <button onclick="nextPage()">Siguiente</button>
+        </div>
+        <div class="page" id="page6">
+            <img src="images/photo4.jpg" alt="Foto 4">
+            <button onclick="nextPage()">Siguiente</button>
+        </div>
+        <div class="page" id="page7">
+            <h1>¿Quieres ser mi novia?</h1>
+            <button onclick="showAnswer('yes')">Sí</button>
+            <button id="noButton" onclick="moveNoButton()">No</button>
+        </div>
+        <div id="answer" class="page">
+            <h1 id="answerText"></h1>
+        </div>
+    </div>
+    <audio id="backgroundAudio" loop>
+        <source src="audio/background-music.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
