@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     window.showAnswer = function(answer) {
         const answerText = document.getElementById('answerText');
         if (answer === 'yes') {
-            answerText.textContent = '¡Sí! ¡Estoy tan feliz!';
+            answerText.textContent = '¡Sí! ¡Aqui comienza nuestra historia! Te adoro';
         } else {
             answerText.textContent = 'Oh, bueno, gracias por ser honesta.';
         }
