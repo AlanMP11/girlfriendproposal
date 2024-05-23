@@ -114,10 +114,6 @@ img {
     margin-bottom: 20px;
 }
 
-#answerText {
-    font-size: 24px;
-}
-
 .badge {
     display: block;
     position: relative;
@@ -166,3 +162,9 @@ img {
     box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);
     transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
   }
+
+#answerText {
+    font-size: 24px;
+}
+
+
