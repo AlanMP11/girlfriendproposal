@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         showPage(pages.length - 1);
     }
 
+
     window.moveNoButton = function() {
         const noButton = document.getElementById('noButton');
         const content = document.getElementById('content');
