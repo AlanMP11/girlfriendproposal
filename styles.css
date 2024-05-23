@@ -17,7 +17,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background: linear-gradient(120deg, #bbf86a 0%, #fda085 100%);
     background-size: 400% 400%;
     animation: gradientAnimation 15s ease infinite;
     z-index: -1;
@@ -130,6 +130,7 @@ img {
     transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
     box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);
   }
+  
   .badge:hover {
     box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);
     background-position: 0% 30%;
