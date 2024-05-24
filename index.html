@@ -5,43 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Te Quiero Preguntar Algo</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Enlazar la fuente desde Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap">
+    <!-- Enlazar Font Awesome para el icono -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="particles"></div>
     <div class="background"></div>
     <div id="content">
         <div id="startPage">
-            <h1>Hola chiquita</h1>
+            <h1>Comenzar nuestra historia</h1>
             <button id="startButton" onclick="startExperience()">Comenzar</button>
         </div>
         <div class="page" id="page1">
             <h1>Mi amor</h1>
             <p>Tengo algo muy especial de lo quiero hablar...</p>
+            <div class="sound-icon">
+                <i class="fas fa-volume-up"></i>
+            </div>
             <button onclick="nextPage()">Siguiente</button>
         </div>
         <div class="page" id="page2">
             <h1>Estos dias junto a ti han sido maravillosos...</h1>
-            <p>Tu presencia ilumina mis días y haces mi vida más hermosa.</p>
+            <p>Tu presencia ilumina mis días y haces mi vida mucho más hermosa.</p>
             <button onclick="nextPage()">Siguiente</button>
         </div>
         <div class="page" id="page3">
             <h1>Y asi viviremos la mas bella de las historias...</h1>
-            <img src="images/photo1.jpg" alt="Foto 1">
+            <img src="images/photo1.jpg" alt="Foto 1" class="photos-img">
+            <br>
             <button onclick="nextPage()">Siguiente</button>
         </div>
         <div class="page" id="page4">
-            <img src="images/photo2.jpg" alt="Foto 2">
+            <h1>Me emociona pensar en todas las nuevas memorias que crearemos juntos.</h1>
+            <img src="images/photo2.jpg" alt="Foto 2" class="photos-img">
+            <br>
             <button onclick="nextPage()">Siguiente</button>
         </div>
         <div class="page" id="page5">
-            <img src="images/photo3.jpg" alt="Foto 3">
+            <h1>Estoy listo para vivir esta increíble aventura contigo.</h1>
+            <img src="images/photo3.jpg" alt="Foto 3" class="photos-img">
+            <br>
             <button onclick="nextPage()">Siguiente</button>
         </div>
         <div class="page" id="page6">
-            <img src="images/photo4.jpg" alt="Foto 4">
+            <h1>Porque en tan poco tiempo has logrado que te ame</h1>
+            <img src="images/photo4.jpg" alt="Foto 4" class="photos-img">
+            <br>
             <button onclick="nextPage()">Siguiente</button>
         </div>
         <div class="page" id="page7">
+            <h1>No hago mas que desear saber como sera el siguiente dia juntos</h1>
+            <p>Tengo una pregunta muy importante para ti...</p>
+            <img src="images/photo5.jpg" alt="Foto 4" class="photos-img">
+            <br>
+            <button onclick="nextPage()">Siguiente</button>
+        </div>
+        <div class="page" id="page8">
             <h1>¿Me darias el tremendo honor de ser tu novio?</h1>
             <button onclick="showAnswer('yes')">Sí</button>
             <button id="noButton" onclick="moveNoButton()">No</button>
