@@ -47,7 +47,7 @@ proyecto-novia/
 
 ### Créditos
 
-Proyecto creado con mucho cariño por Alan para Claudia.
+Proyecto creado con mucho cariño por Alan para Valeria.
 
 ### Licencia
 
