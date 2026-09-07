@@ -103,7 +103,7 @@ proposal-project/
 
 ### Credits
 
-Project lovingly created by Alan for Claudia.
+Project lovingly created by Alan for Valeria.
 
 ### License
 
